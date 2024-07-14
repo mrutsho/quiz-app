@@ -1,38 +1,38 @@
 const questions = [
     {
-        question: "Which is largest animal in the world?",
+        question: "What is the correct syntax for referring to an external script called "script.js"?",
         answers: [
-            {text: "shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "<script name="script.js"></script>", correct: false},
+            {text: "<script src="script.js"></script>", correct: true},
+            {text: "<script href="script.js"></script>", correct: false},
+            {text: "<script link="script.js"></script>", correct: false},
         ]
     },
     {
-        question: "Which is largest animal in the world?",
+        question: "Which built-in method combines the text of two strings and returns a new string?",
         answers: [
-            {text: "shark", correct: false},
-            {text: "Blue whale", correct: false},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: true},
+            {text: "append()", correct: false},
+            {text: "concat()", correct: true},
+            {text: "attach()", correct: false},
+            {text: "combine()", correct: false},
         ]
     },
     {
-        question: "Which is largest animal in the world?",
+        question: "How can you add a comment in JavaScript?",
         answers: [
-            {text: "shark", correct: true},
-            {text: "Blue whale", correct: false},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "<!-- This is a comment -->", correct: false},
+            {text: "/* This is a comment */", correct: false},
+            {text: "// This is a comment", correct: true},
+            {text: "** This is a comment **", correct: false},
         ]
     },
     {
-        question: "Which is largest animal in the world?",
+        question: "Which method is used to convert a JSON string into a JavaScript object?",
         answers: [
-            {text: "shark", correct: false},
-            {text: "Blue whale", correct: false},
-            {text: "Elephant", correct: true},
-            {text: "Giraffe", correct: false},
+            {text: "JSON.parse()", correct: true},
+            {text: "JSON.stringify()", correct: false},
+            {text: "JSON.convert()", correct: false},
+            {text: "JSON.toObject()", correct: false},
         ]
     },
     
