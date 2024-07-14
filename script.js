@@ -20,7 +20,7 @@ const questions = [
     {
         question: "How can you add a comment in JavaScript?",
         answers: [
-            {text: "<!-- This is a comment -->", correct: false},
+            {text: "&lt;!-- This is a comment --&gt;", correct: false},
             {text: "/* This is a comment */", correct: false},
             {text: "// This is a comment", correct: true},
             {text: "** This is a comment **", correct: false},
