@@ -2,8 +2,8 @@ const questions = [
     {
         question: "Which of the following is the correct way to declare a JavaScript variable?",
         answers: [
-            {text: "var myVar;", correct: false},
-            {text: "variable myVar;", correct: true},
+            {text: "var myVar;", correct: true},
+            {text: "variable myVar;", correct: false},
             {text: "v myVar;", correct: false},
             {text: "declare myVar;", correct: false},
         ]
