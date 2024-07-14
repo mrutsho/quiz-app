@@ -1,11 +1,11 @@
 const questions = [
     {
-        question: "What is the correct syntax for referring to an external script called "script.js"?",
+        question: "Which of the following is the correct way to declare a JavaScript variable?",
         answers: [
-            {text: "<script name="script.js"></script>", correct: false},
-            {text: "<script src="script.js"></script>", correct: true},
-            {text: "<script href="script.js"></script>", correct: false},
-            {text: "<script link="script.js"></script>", correct: false},
+            {text: "var myVar;", correct: false},
+            {text: "variable myVar;", correct: true},
+            {text: "v myVar;", correct: false},
+            {text: "declare myVar;", correct: false},
         ]
     },
     {
